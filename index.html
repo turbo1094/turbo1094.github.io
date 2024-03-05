@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmad Alawneh - cyber security</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Ahmad alawneh</h2>
+            <p>Major: cyber security</p>
+            <p>Soft Skills: Problem-Solving ,Teamwork ,Critical Thinking  </p>
+            <img src="your_picture.jpg" alt="Your Picture">
+        </section>
+        <section class="programming-languages">
+            <h2>Favorite Programming Languages</h2>
+            <table>
+                <tr>
+                    <td>python</td>
+                    <td><a href="#">Learn More</a></td>
+                </tr>
+                <tr>
+                    <td>c++</td>
+                    <td><a href="#">Learn More</a></td>
+                </tr>
+                <!-- Add more rows for other languages -->
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Contact me: <a href="aialalawn21@cit.just.edu.jo">aialalawn21@cit.just.edu.jo</a></p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <main>
+        <form action="submit_form.php" method="post">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country">
+            
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+    </ul>
+</nav>
